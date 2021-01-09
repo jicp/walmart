@@ -4,14 +4,16 @@ This is the Basic Challenge for Data Engineers.
 
 ## Descripcion del trabajo realizado
 
-Se realizaron las siguientes etapas en la solución del problema planteado:
+Se realizó un procesamiento de datos ETL, para el conjunto de datos proporcionado.
+
+Se realizaron las siguientes tareas en la solución del problema planteado:
 
 * Se implementó un servicio de cron en GCP (Scheduler).
 * Se implementó un servicio de mensajería de GCP (Pub/Sub).
 * Se implementó una aplicacion sin servidor de GCP (Cloud Functions), dejando los datos en BigQuery de GCP.
 * Se crearon las consultas de datos en BigQuery.
 * Se disponibilizaron los reportes solicitados en Data Studio de GCP.
-* Se diponibilizaron los datos en Github.
+* Se diponibilizaron los datos globales y de las consutas en Github.
 
 ## Consideraciones
 
