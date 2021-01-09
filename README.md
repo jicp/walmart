@@ -10,8 +10,8 @@ Se realizaron las siguientes etapas en la solución del problema planteado:
 * Se implementó un Servicio de mensajería de GCP (Pub/Sub).
 * Se implementó una aplicacion sin servidor de GCP (Cloud Functions), dejando los datos en BigQuery de GCP.
 * Se crearon las consultas de datos en BigQuery.
-* Se disponibilizaron los reportes solicitados en Data Studio de [GCP](https://datastudio.google.com/reporting/1fa7ad84-d82b-43fb-99b4-04c692d0920c).
-* Se diponibilizaron los datos en [Github](output).
+* Se disponibilizaron los reportes solicitados en Data Studio de GCP.
+* Se diponibilizaron los datos en Github.
 
 ## Consideraciones
 
