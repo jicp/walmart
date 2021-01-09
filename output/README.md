@@ -12,12 +12,28 @@ El archvo esta en fomato CSV y contiene las columnas: ‘console’, 'company','
 Contiene toda la informacion de la valoracion de Users.
 El archvo esta en  fomato CSV y contiene las columnas: ‘console’, 'company','game', 'userscore','fecha','ano','mes'. Estos valores están separados entre sí por comas.
 
-## Infomacion de Reportes
+# Infomacion de Reportes
 
-[META-The-top-10-best-games-for-all-consoles.csv](Meta/META-The-top-10-best-games-for-all-consoles.csv)
-Los 10 juegos mejor evaluados de todas las consolas
+## Reportes segun evaluacion de Meta
+
+[The top 10 best games for each console/company](Meta/META-The-top-10-best-games-for-each-consolecompany.csv)
+
+[The worst 10 games for each console/company](Meta/META-The-worst-10-games-for-each-consolecompany.csv)
+
+[The top 10 best games for all consoles](Meta/META-The-top-10-best-games-for-all-consoles.csv)
+
+[The worst 10 games for all consoles](Meta/META-The-worst-10-games-for-all-consoles.csv)
 
 
+## Reportes segun evaluacion de Users
+
+[The top 10 best games for each console/company](Meta/META-The-top-10-best-games-for-each-consolecompany.csv)
+
+[The worst 10 games for each console/company](Meta/META-The-worst-10-games-for-each-consolecompany.csv)
+
+[The top 10 best games for all consoles](Meta/META-The-top-10-best-games-for-all-consoles.csv)
+
+[The worst 10 games for all consoles](Meta/META-The-worst-10-games-for-all-consoles.csv)
 
 
 
