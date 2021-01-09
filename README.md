@@ -4,13 +4,32 @@ This is the Basic Challenge for Data Engineers.
 
 ## Descripcion del trabajo realizado
 
-Se realizaron las siguientes etapas en la solución del problema planteado
+Se realizaron las siguientes etapas en la solución del problema planteado:
 
 * Se implementó un servicio de trabajo cron en GCP (Scheduler).
 * Se implementó un Servicio de mensajería de GCP (Pub/Sub).
 * Se implementó una aplicacion sin servidor de GCP (Cloud Functions), dejando los datos en BigQuery de GCP.
 * Se crearon las consultas de datos en BigQuery.
 * Se disponibilizaron los reportes en Data Studio de GCP.
+
+## Consideraciones
+
+Se disponía de 2 variables de analisis para el conjunto de datos, 'Meta' y 'User'. 
+
+Al no existir información sobre cual utilizar,se realizaron los dos análisis.
+
+Los conjuntos de datos no eran totalmente compatibles, ya que la valoración de ‘User’ contenía valores sin calificar. Por este motivo, se trabajaron como conjuntos de datos por separado.
+
+
+
+
+## Resultados
+
+Los resultados pueden ser visualizados en https://datastudio.google.com/reporting/1fa7ad84-d82b-43fb-99b4-04c692d0920c
+Los datos están disponibles en GitHub:
+
+
+
 
 
 ## Cloud Function
