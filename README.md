@@ -89,7 +89,7 @@ def main_pubsub(event, context):
 ## Consultas Big Query - Meta
 Estas consultas son realizadas para el despliegue en Data Studio
 
-### The top 10 best games for each console/company.
+The top 10 best games for each console/company.
 ```sql
 select concat(console,'/',company) as console_company,game, metascore from (
 select console,company,game, metascore,row_number() over (partition by console,company order by metascore desc) as ranking 
@@ -98,7 +98,7 @@ from `walmart-300819.DataWalmart.TableMeta`
 where ranking<=10
 order by console,company,metascore desc
 ```
-### The worst 10 games for each console/company.
+The worst 10 games for each console/company.
 ```sql
 select concat(console,'/',company) as console_company,game, metascore from (
 select console,company,game, metascore,row_number() over (partition by console,company order by metascore ) as ranking 
@@ -107,14 +107,14 @@ from `walmart-300819.DataWalmart.TableMeta`
 where ranking<=10
 order by console,company,metascore
 ```
-### The top 10 best games for all consoles.
+The top 10 best games for all consoles.
 ```sql
 select console,company,game, metascore
 from `walmart-300819.DataWalmart.TableMeta`
 order by metascore desc
 limit 10
 ```
-### The worst 10 games for all consoles
+The worst 10 games for all consoles
 ```sql
 select console,company,game, metascore
 from `walmart-300819.DataWalmart.TableMeta`
