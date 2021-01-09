@@ -15,7 +15,7 @@ Se realizaron las siguientes etapas en la solución del problema planteado:
 
 ## Consideraciones
 
-Se disponía de 2 variables de analisis para el conjunto de datos, 'Meta' y 'User'. 
+Se disponía de 2 variables de analisis para el conjunto de datos: 'Meta' y 'User'. 
 
 Al no existir información sobre cual utilizar,se realizaron los dos análisis.
 
@@ -191,3 +191,10 @@ from `walmart-300819.DataWalmart.TableUser`
 order by userscore 
 limit 10
 ```
+
+
+
+
+
+
+
