@@ -1,7 +1,19 @@
 # Data Engineer - Challenge
 This is the Basic Challenge for Data Engineers. 
 
-### Cloud Function
+
+## Descripcion del trabajo realizado
+
+Se realizaron las siguientes etapas en la solución del problema planteado
+
+* Se implementó un servicio de trabajo cron en GCP (Scheduler).
+* Se implementó un Servicio de mensajería de GCP (Pub/Sub).
+* Se implementó una aplicacion sin servidor de GCP (Cloud Functions), dejando los datos en BigQuery de GCP.
+* Se crearon las consultas de datos en BigQuery.
+* Se disponibilizaron los reportes en Data Studio de GCP.
+
+
+## Cloud Function
 ```python
 import base64
 import pandas as pd
