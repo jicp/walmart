@@ -27,13 +27,13 @@ El archvo esta en  fomato CSV y contiene las columnas: ‘console’, 'company',
 
 ## Reportes segun evaluacion de Users
 
-[The top 10 best games for each console/company](Meta/META-The-top-10-best-games-for-each-consolecompany.csv)
+[The top 10 best games for each console/company](User/USER-The-top-10-best-games-for-each-consolecompany.csv)
 
-[The worst 10 games for each console/company](Meta/META-The-worst-10-games-for-each-consolecompany.csv)
+[The worst 10 games for each console/company](User/USER-The-worst-10-games-for-each-consolecompany.csv)
 
-[The top 10 best games for all consoles](Meta/META-The-top-10-best-games-for-all-consoles.csv)
+[The top 10 best games for all consoles](User/USER-The-top-10-best-games-for-all-consoles.csv)
 
-[The worst 10 games for all consoles](Meta/META-The-worst-10-games-for-all-consoles.csv)
+[The worst 10 games for all consoles](User/USER-The-worst-10-games-for-all-consoles.csv)
 
 
 
