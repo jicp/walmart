@@ -2,6 +2,7 @@
 
 # Datos - Resultado del procesamiento.
 En esta carpeta estan disponibilizados los datos para los usuarios.
+Al no esta claramente definido el tipo de análisis que se deseaba sobre los datos, se realizó utilizando los dos parámetros de evalaucion que existían.
 
 
 ## META.csv
