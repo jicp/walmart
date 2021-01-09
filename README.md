@@ -26,7 +26,9 @@ Al no existir información sobre cual utilizar,se realizaron los dos análisis.
 
 Los conjuntos de datos no eran totalmente compatibles, ya que la valoración de ‘User’ contenía valores sin calificar. Por este motivo, se trabajaron como conjuntos de datos por separado.
 
-
+* Debido a lo simple de las transformacion en los datos, no fue necesario utilizar Dataprep.
+* Debido a la simplicidad del proceso no fue necesario utilizar Airflow para controlar las etapas del procesamiento.
+* Debido a que la cantidad de datos eran reducidos, no fue necesario utilizar Databricks.
 
 
 ## Resultados
