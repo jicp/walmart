@@ -6,6 +6,9 @@ This is the Basic Challenge for Data Engineers.
 
 Se realizó un procesamiento de datos ETL, para el conjunto de datos proporcionado.
 
+![alt text](img/gcp.png)
+
+
 Se realizaron las siguientes tareas en la solución del problema planteado:
 
 * Se implementó un servicio de cron en GCP (Scheduler).
