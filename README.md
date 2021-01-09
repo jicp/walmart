@@ -1,5 +1,5 @@
 # Data Engineer - Challenge
-This is the Basic Challenge for Dathttps://github.com/jicp/walmart/blob/main/README.mda Engineers. 
+This is the Basic Challenge for Data Engineers
 
 ## Autor
 Jaime Campos Perez
