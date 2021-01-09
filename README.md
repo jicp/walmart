@@ -24,18 +24,18 @@ Se disponía de 2 variables de analisis para el conjunto de datos: 'Meta' y 'Use
 
 Al no existir información sobre cual utilizar,se realizaron los dos análisis.
 
-Los conjuntos de datos no eran totalmente compatibles, ya que la valoración de ‘User’ contenía valores sin calificar. Por este motivo, se trabajaron como conjuntos de datos por separado.
+Los conjuntos de datos no eran totalmente compatibles, ya que la valoración de ‘User’ contenía valores sin calificar. Por este motivo se trabajaron como conjuntos de datos por separado.
 
-* Debido a lo simple de las transformacion en los datos, no fue necesario utilizar Dataprep.
-* Debido a la simplicidad del proceso no fue necesario utilizar Airflow para controlar las etapas del procesamiento.
-* Debido a que la cantidad de datos eran reducidos, no fue necesario utilizar Databricks.
+- Debido a lo simple de las transformacion en los datos, no fue necesario utilizar Dataprep.
+- Debido a la simplicidad del proceso no fue necesario utilizar Airflow para controlar las etapas del procesamiento.
+- Debido a que la cantidad de datos eran reducidos, no fue necesario utilizar Databricks.
 
 
 ## Resultados
 
 Los resultados pueden ser visualizados en https://datastudio.google.com/reporting/1fa7ad84-d82b-43fb-99b4-04c692d0920c
 
-Los datos están disponibles en [Github](output):
+Los datos están disponibles en [Github](output)
 
 
 
