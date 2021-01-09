@@ -27,6 +27,7 @@ Los conjuntos de datos no eran totalmente compatibles, ya que la valoración de 
 ## Resultados
 
 Los resultados pueden ser visualizados en https://datastudio.google.com/reporting/1fa7ad84-d82b-43fb-99b4-04c692d0920c
+
 Los datos están disponibles en [Github](output):
 
 
