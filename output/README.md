@@ -14,7 +14,7 @@ El archvo esta en  fomato CSV y contiene las columnas: ‘console’, 'company',
 
 ## Infomacion de Reportes
 
-[META-The-top-10-best-games-for-all-consoles.csv](META/META-The-top-10-best-games-for-all-consoles.csv)
+[META-The-top-10-best-games-for-all-consoles.csv](Meta/META-The-top-10-best-games-for-all-consoles.csv)
 Los 10 juegos mejor evaluados de todas las consolas
 
 
