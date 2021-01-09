@@ -2,7 +2,10 @@
 
 # Datos - Resultado del procesamiento.
 En esta carpeta estan disponibilizados los datos para los usuarios.
-Al no esta claramente definido el tipo de análisis que se deseaba sobre los datos, se realizó utilizando los dos parámetros de evalaucion que existían.
+
+Al no esta claramente definido el tipo de análisis que se deseaba sobre los datos, se realizó utilizando los dos parámetros de evalaucion que existían "Meta" y "User".
+
+Como existían datos indeterminados en la valoración de 'User' se trabajó con dos conjuntos de datos por separado.
 
 
 ## META.csv
