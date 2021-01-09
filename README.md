@@ -126,7 +126,7 @@ limit 10
 ## Consultas Big Query - User
 Estas consultas son realizadas para el despliegue en Data Studio
 
-### The top 10 best games for each console/company.
+The top 10 best games for each console/company.
 ```sql
 select concat(console,'/',company) as console_company,game, userscore from (
 select console,company,game, userscore,row_number() over (partition by console,company order by userscore desc) as ranking 
@@ -135,7 +135,7 @@ from `walmart-300819.DataWalmart.TableUser`
 where ranking<=10
 order by console,company,userscore desc
 ```
-### The worst 10 games for each console/company.
+The worst 10 games for each console/company.
 ```sql
 select concat(console,'/',company) as console_company,game, userscore from (
 select console,company,game, userscore,row_number() over (partition by console,company order by userscore ) as ranking 
@@ -144,14 +144,14 @@ from `walmart-300819.DataWalmart.TableUser`
 where ranking<=10
 order by console,company,userscore
 ```
-### The top 10 best games for all consoles.
+The top 10 best games for all consoles.
 ```sql
 select console,company,game, userscore
 from `walmart-300819.DataWalmart.TableUser`
 order by userscore desc
 limit 10
 ```
-### The worst 10 games for all consoles
+The worst 10 games for all consoles
 ```sql
 select console,company,game, userscore
 from `walmart-300819.DataWalmart.TableUser`
